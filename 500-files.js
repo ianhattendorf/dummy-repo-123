@@ -2,6 +2,16 @@ var fs = require('fs');
 
 try {
   fs.mkdir('./500_files');
+
+
+
+
+  console.log('what');
+
+
+
+
+  console.log('so many new lines');
 } catch(e) {
   // do nothing
 }
