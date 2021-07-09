@@ -1,11 +1,29 @@
 var fs = require('fs');
 
 try {
-  fs.mkdir('./500_files');
+  fs.mkdirSync('./500_files');
 } catch(e) {
   // do nothing
 }
 
-for (var i = 100; i < 600; ++i) {
-  fs.writeFile('./500_files/' + i + '.txt', 'Hello from file ' + i + '!', () => {});
+const [fileCountArg, fileSizeArg] = process.argv.slice(2);
+let fileCount = 500;
+if (fileCountArg) {
+  fileCount = Number.parseInt(fileCountArg);
+}
+
+let fileSize = 'small'; // small/big/random
+if (fileSizeArg) {
+  fileSize = fileSizeArg;
+}
+
+for (var i = 0; i < fileCount; ++i) {
+  let fileText = `Hello from file ${i}!\n`;
+  if (fileSize === 'big' || (fileSize === 'random' && Math.random() < 0.5)) {
+    for (let i = 0; i < Math.random() * 10000; ++i) {
+      fileText += `Hello from file ${i}!\n`;
+    }
+  }
+
+  fs.writeFileSync('./500_files/' + i + '.txt', fileText);
 }
