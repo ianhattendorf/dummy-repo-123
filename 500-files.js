@@ -17,5 +17,5 @@ try {
 }
 
 for (var i = 100; i < 600; ++i) {
-  fs.writeFile('./500_files/' + i + '.txt', 'Hello from file ' + i + '!', () => {});
+  fs.writeFile('./500_files/' + i + '.txt', 'Hello from file ' + i + '!', () => {}); // this is a long line to allow scrolling this is a long line to allow scrolling this is a long line to allow scrolling this is a long line to allow scrolling
 }
