@@ -64,11 +64,6 @@ Fx 	ð 	ñ 	ò 	ó 	ô 	õ 	ö 	÷ 	ø 	ù 	ú 	û 	ü 	ý 	þ 	ÿ
 Ê	&#202;	&Ecirc;	capital e, circumflex accent
 Ë	&#203;	&Euml;	capital e, umlaut mark
 Ì	&#204;	&Igrave;	capital i, grave accent
-Í	&#205;	&Iacute;	capital i, acute accent
-Î	&#206;	&Icirc;	capital i, circumflex accent
-Ï	&#207;	&Iuml;	capital i, umlaut mark
-Ð	&#208;	&ETH;	capital eth, Icelandic
-Ñ	&#209;	&Ntilde;	capital n, tilde
 Ò	&#210;	&Ograve;	capital o, grave accent
 Ó	&#211;	&Oacute;	capital o, acute accent
 Ô	&#212;	&Ocirc;	capital o, circumflex accent
@@ -115,3 +110,10 @@ Fx 	ð 	ñ 	ò 	ó 	ô 	õ 	ö 	÷ 	ø 	ù 	ú 	û 	ü 	ý 	þ 	ÿ
 ý	&#253;	&yacute;	small y, acute accent
 þ	&#254;	&thorn;	small thorn, Icelandic
 ÿ	&#255;	&yuml;	small y, umlaut mark
+
+Í	&#205;	&Iacute;	capital i, acute accent
+Î	&#206;	&Icirc;	capital i, circumflex accent
+Ï	&#207;	&Iuml;	capital i, umlaut mark
+Ð	&#208;	&ETH;	capital eth, Icelandic
+Ñ	&#209;	&Ntilde;	capital n, tilde
+
